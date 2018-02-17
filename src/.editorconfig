@@ -1,0 +1,19 @@
+# http://EditorConfig.org
+
+# This file is the top-most EditorConfig file
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# C# Code Style Settings
+# See https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+# See https://kent-boogaart.com/blog/editorconfig-reference-for-c-developers
+[*.{cs,csx}]
+# Indentation Options
+csharp_indent_block_contents = true #:warning
+csharp_indent_braces = false #:warning
+csharp_indent_case_contents = true #:warning
+csharp_indent_labels = flush_left #:warning (flush_left|one_less_than_current|no_change)
+csharp_indent_switch_labels = true #:warning
