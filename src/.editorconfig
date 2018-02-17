@@ -3,9 +3,15 @@
 # This file is the top-most EditorConfig file
 root = true
 
-[*.cs]
-indent_style = space
-indent_size = 4
+# All Files
+[*]
+charset = utf-8 #:warning (latin1|utf-8|utf-8-bom|utf-16be|utf-16le)
+end_of_line = crlf #:warning (lf|cr|crlf)
+indent_style = space #:warning (space|tab)
+indent_size = 4 #:warning
+# tab_width = 4 #:warning
+insert_final_newline = false #:warning
+trim_trailing_whitespace = true #:warning
 
 # C# Code Style Settings
 # See https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
@@ -17,3 +23,5 @@ csharp_indent_braces = false #:warning
 csharp_indent_case_contents = true #:warning
 csharp_indent_labels = flush_left #:warning (flush_left|one_less_than_current|no_change)
 csharp_indent_switch_labels = true #:warning
+# braces
+csharp_prefer_braces = true:warning
