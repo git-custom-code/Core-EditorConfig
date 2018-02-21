@@ -1,10 +1,10 @@
-﻿namespace CustomCode.Core.EditorConfig
+namespace CustomCode.Core.EditorConfig
 {
     public sealed class IndentCaseContents
     {
         public void ShowCase()
         {
-            int foo;
+            var foo = 0;
 
             // csharp_indent_case_contents = true
             switch (foo)

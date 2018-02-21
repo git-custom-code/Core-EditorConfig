@@ -1,10 +1,10 @@
-﻿namespace CustomCode.Core.EditorConfig
+namespace CustomCode.Core.EditorConfig
 {
     public sealed class IndentSwitchLabels
     {
         public void ShowCase()
         {
-            int foo;
+            var foo = 0;
 
             // csharp_indent_switch_labels = true
             switch (foo)

@@ -4,7 +4,7 @@ namespace CustomCode.Core.EditorConfig
     {
         public void ShowCase()
         {
-            bool foo;
+            var foo = false;
 
             // csharp_indent_block_contents = true
             if (foo)

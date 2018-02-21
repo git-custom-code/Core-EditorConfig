@@ -5,4 +5,8 @@
     <RootNamespace>CustomCode.Core.EditorConfig.Showcase</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ValueTuple" Version="4.4.0" />
+  </ItemGroup>
+
 </Project>

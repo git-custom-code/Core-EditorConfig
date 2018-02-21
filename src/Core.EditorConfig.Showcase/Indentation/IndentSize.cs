@@ -4,7 +4,7 @@ namespace CustomCode.Core.EditorConfig
     {
         public void ShowCase()
         {
-            bool foo;
+            var foo = false;
 
             // indent_size = 4
             if (foo)

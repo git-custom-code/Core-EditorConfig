@@ -1,10 +1,10 @@
-﻿namespace CustomCode.Core.EditorConfig
+namespace CustomCode.Core.EditorConfig
 {
     public sealed class IndentBraces
     {
         public void ShowCase()
         {
-            bool foo;
+            var foo = false;
 
             // csharp_indent_braces = true
             if (foo)
