@@ -21,13 +21,23 @@ trim_trailing_whitespace = true
 # See https://kent-boogaart.com/blog/editorconfig-reference-for-c-developers
 [*.{cs,csx}]
 
-# Indentation Options
+# indentation
 csharp_indent_block_contents = true
 csharp_indent_braces = false
 csharp_indent_case_contents = true
 csharp_indent_labels = flush_left
 #(flush_left|one_less_than_current|no_change)
 csharp_indent_switch_labels = true
+
+# new lines
+csharp_new_line_before_catch = true
+csharp_new_line_before_else = true
+csharp_new_line_before_finally = true
+#csharp_new_line_before_members_in_anonymous_types = false
+#csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_open_brace = all
+#(all|accessors|types|methods|properties|indexers|events|anonymous_methods|control_blocks|anonymous_types|object_collection_array_initalizers|lambdas|local_functions)
+csharp_new_line_between_query_expression_clauses = true
 
 # braces
 csharp_prefer_braces = true:warning
