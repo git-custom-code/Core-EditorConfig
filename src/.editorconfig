@@ -45,3 +45,84 @@ dotnet_style_qualification_for_event = false:warning
 dotnet_style_qualification_for_field = false:warning
 dotnet_style_qualification_for_method = false:warning
 dotnet_style_qualification_for_property = false:warning
+
+# naming conventions
+
+# interfaces
+dotnet_naming_symbols.symbol_interface.applicable_kinds = interface
+dotnet_naming_style.style_interface.capitalization = pascal_case
+dotnet_naming_style.style_interface.required_prefix = I
+dotnet_naming_rule.rule_interface_prefix_i_pascal_case.severity = warning
+dotnet_naming_rule.rule_interface_prefix_i_pascal_case.symbols = symbol_interface
+dotnet_naming_rule.rule_interface_prefix_i_pascal_case.style = style_interface
+# classes
+dotnet_naming_symbols.symbol_class.applicable_kinds = class
+dotnet_naming_style.style_class.capitalization = pascal_case
+dotnet_naming_rule.rule_class_pascal_case.severity = warning
+dotnet_naming_rule.rule_class_pascal_case.symbols = symbol_class
+dotnet_naming_rule.rule_class_pascal_case.style = style_class
+# structs
+dotnet_naming_symbols.symbol_struct.applicable_kinds = struct
+dotnet_naming_style.style_struct.capitalization = pascal_case
+dotnet_naming_rule.rule_struct_pascal_case.severity = warning
+dotnet_naming_rule.rule_struct_pascal_case.symbols = symbol_struct
+dotnet_naming_rule.rule_struct_pascal_case.style = style_struct
+# enums
+dotnet_naming_symbols.symbol_enum.applicable_kinds = enum
+dotnet_naming_style.style_enum.capitalization = pascal_case
+dotnet_naming_rule.rule_enum_pascal_case.severity = warning
+dotnet_naming_rule.rule_enum_pascal_case.symbols = symbol_enum
+dotnet_naming_rule.rule_enum_pascal_case.style = style_enum
+# fields
+dotnet_naming_symbols.symbol_const_field.applicable_kinds = field
+dotnet_naming_symbols.symbol_const_field.required_modifiers = const
+dotnet_naming_style.style_const_field.capitalization = pascal_case
+dotnet_naming_rule.rule_const_field_pascal_case.severity = warning
+dotnet_naming_rule.rule_const_field_pascal_case.symbols = symbol_const_field
+dotnet_naming_rule.rule_const_field_pascal_case.style = style_const_field
+
+dotnet_naming_symbols.symbol_field.applicable_kinds = field
+dotnet_naming_style.style_field.capitalization = camel_case
+dotnet_naming_style.style_field.required_prefix = _
+dotnet_naming_rule.rule_field_camel_case_underscore.severity = warning
+dotnet_naming_rule.rule_field_camel_case_underscore.symbols = symbol_field
+dotnet_naming_rule.rule_field_camel_case_underscore.style = style_field
+# properties
+dotnet_naming_symbols.symbol_property.applicable_kinds = property
+dotnet_naming_style.style_property.capitalization = pascal_case
+#dotnet_naming_style.style_property.word_separator = #currently there is no way to prevent an underscore (see https://github.com/dotnet/roslyn/issues/18409)
+dotnet_naming_rule.rule_property_pascal_case.severity = warning
+dotnet_naming_rule.rule_property_pascal_case.symbols = symbol_property
+dotnet_naming_rule.rule_property_pascal_case.style = style_property
+# methods (order matters)
+dotnet_naming_symbols.symbol_async_method.applicable_kinds = method
+dotnet_naming_symbols.symbol_async_method.required_modifiers = async
+dotnet_naming_style.style_async_method.required_suffix = Async
+dotnet_naming_style.style_async_method.capitalization = pascal_case
+dotnet_naming_rule.rule_async_method_async_suffix.severity = warning
+dotnet_naming_rule.rule_async_method_async_suffix.symbols = symbol_async_method
+dotnet_naming_rule.rule_async_method_async_suffix.style = style_async_method
+
+dotnet_naming_symbols.symbol_method.applicable_kinds = method
+dotnet_naming_style.style_method.capitalization = pascal_case
+dotnet_naming_rule.rule_method_pascal_case.severity = warning
+dotnet_naming_rule.rule_method_pascal_case.symbols = symbol_method
+dotnet_naming_rule.rule_method_pascal_case.style = style_method
+# parameter
+dotnet_naming_symbols.symbol_parameter.applicable_kinds = parameter
+dotnet_naming_style.style_parameter.capitalization = camel_case
+dotnet_naming_rule.rule_parameter_camel_case.severity = warning
+dotnet_naming_rule.rule_parameter_camel_case.symbols = symbol_parameter
+dotnet_naming_rule.rule_parameter_camel_case.style = style_parameter
+# events
+dotnet_naming_symbols.symbol_event.applicable_kinds = event
+dotnet_naming_style.style_event.capitalization = pascal_case
+dotnet_naming_rule.rule_event_pascal_case.severity = warning
+dotnet_naming_rule.rule_event_pascal_case.symbols = symbol_event
+dotnet_naming_rule.rule_event_pascal_case.style = style_event
+# delegates
+dotnet_naming_symbols.symbol_delegate.applicable_kinds = delegate
+dotnet_naming_style.style_delegate.capitalization = pascal_case
+dotnet_naming_rule.rule_delegate_pascal_case.severity = warning
+dotnet_naming_rule.rule_delegate_pascal_case.symbols = symbol_delegate
+dotnet_naming_rule.rule_delegate_pascal_case.style = style_delegate
