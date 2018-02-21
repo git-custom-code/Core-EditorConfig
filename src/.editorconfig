@@ -38,6 +38,8 @@ csharp_new_line_before_finally = true
 csharp_new_line_before_open_brace = all
 #(all|accessors|types|methods|properties|indexers|events|anonymous_methods|control_blocks|anonymous_types|object_collection_array_initalizers|lambdas|local_functions)
 csharp_new_line_between_query_expression_clauses = true
+csharp_preserve_single_line_blocks = true
+csharp_preserve_single_line_statements = true
 
 # braces
 csharp_prefer_braces = true:warning
