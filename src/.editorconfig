@@ -41,6 +41,33 @@ csharp_new_line_between_query_expression_clauses = true
 csharp_preserve_single_line_blocks = true
 csharp_preserve_single_line_statements = true
 
+# spaces
+csharp_space_after_cast = false
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_after_comma = true
+csharp_space_after_dot = false
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_around_binary_operators = none
+#(before_and_after|ignore|none) #currently bugged https://github.com/dotnet/roslyn/issues/20355
+csharp_space_around_declaration_statements = do_not_ignore
+#(ignore|do_not_ignore)
+csharp_space_before_colon_in_inheritance_clause = true
+csharp_space_before_comma = false
+csharp_space_before_dot = false
+csharp_space_before_open_square_brackets = false
+csharp_space_before_semicolon_in_for_statement = false
+csharp_space_between_empty_square_brackets = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_parameter_list_parentheses = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+csharp_space_between_parentheses = none
+#(none|expressions|type_casts|control_flow_statements)
+csharp_space_between_square_brackets = false
+
 # braces
 csharp_prefer_braces = true:warning
 
