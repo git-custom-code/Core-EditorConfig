@@ -6,7 +6,7 @@
     <Authors>CustomCode</Authors>
     <Company>CustomCode</Company>
     <Description>showcase for c# .editorcfg settings in visual studio</Description>
-    <Copyright>(c)</Copyright>
+    <Copyright>(c) 2018</Copyright>
     <PackageProjectUrl>https://github.com/git-custom-code/Core-EditorConfig</PackageProjectUrl>
     <RepositoryUrl>https://github.com/git-custom-code/Core-EditorConfig</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
@@ -17,5 +17,9 @@
   <ItemGroup>
     <PackageReference Include="System.ValueTuple" Version="4.4.0" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
 
 </Project>
