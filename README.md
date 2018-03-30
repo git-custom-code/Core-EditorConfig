@@ -1,5 +1,5 @@
 # Core-EditorConfig
-.editorcfg file with coding styles for c# for visual studio
+.editorcfg file with c# coding styles for visual studio
 
 ## What is EditorConfig?
 To quote directly from [editorconfig.org](http://editorconfig.org):
