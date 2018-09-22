@@ -1,0 +1,8 @@
+<Project>
+
+  <PropertyGroup>
+    <PackageId>$(AssemblyTitle)</PackageId>
+    <Title>$(AssemblyTitle)</Title>
+  </PropertyGroup>
+
+</Project>

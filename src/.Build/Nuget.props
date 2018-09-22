@@ -1,0 +1,13 @@
+<Project>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>$(Version)</PackageVersion>
+    <PackageProjectUrl>https://github.com/git-custom-code/Core-EditorConfig</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/git-custom-code/Core-EditorConfig</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>.editorcfg, c#</PackageTags>
+    <PackageLicenseUrl>https://github.com/git-custom-code/Core-EditorConfig/License.txt</PackageLicenseUrl>
+  </PropertyGroup>
+
+</Project>

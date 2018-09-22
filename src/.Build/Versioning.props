@@ -1,0 +1,9 @@
+<Project>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <InformationalVersion>$(Version)-rc.2+build.developer</InformationalVersion>
+  </PropertyGroup>
+
+</Project>

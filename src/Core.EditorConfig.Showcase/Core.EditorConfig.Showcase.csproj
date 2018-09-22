@@ -3,23 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <RootNamespace>CustomCode.Core.EditorConfig.Showcase</RootNamespace>
-    <Authors>CustomCode</Authors>
-    <Company>CustomCode</Company>
-    <Description>showcase for c# .editorcfg settings in visual studio</Description>
-    <Copyright>(c) 2018</Copyright>
-    <PackageProjectUrl>https://github.com/git-custom-code/Core-EditorConfig</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/git-custom-code/Core-EditorConfig</RepositoryUrl>
-    <RepositoryType>github</RepositoryType>
-    <PackageTags>.editorcfg, c#</PackageTags>
-    <PackageLicenseUrl>https://github.com/git-custom-code/Core-EditorConfig/License.txt</PackageLicenseUrl>
+    <AssemblyTitle>Core.EditorConfig.Showcase</AssemblyTitle>
+    <Description>Showcase for a c# .editorcfg file for usage inside of visual studio.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ValueTuple" Version="4.4.0" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-  </PropertyGroup>
-
 </Project>
