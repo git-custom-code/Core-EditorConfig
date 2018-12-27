@@ -4,8 +4,8 @@ namespace CustomCode.Core.EditorConfig
     {
         // csharp_prefer_simple_default_expression = true
         // Note: requires c# 7.1
-        // private void Foo(int foo = default)
-        // { }
+        private void Foo(int foo = default)
+        { }
 
         // csharp_prefer_simple_default_expression = false
         private void Bar(int foo = default(int))

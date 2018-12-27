@@ -1,6 +1,6 @@
 namespace CustomCode.Core.EditorConfig
 {
-    public sealed class TupleNames
+    public sealed class ExplicitTupleNames
     {
         public void ShowCase()
         {

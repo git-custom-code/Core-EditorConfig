@@ -22,7 +22,7 @@ namespace CustomCode.Core.EditorConfig
             foo = new Foo
                 {
                     A = 42, B = 13
-            }   ;
+                };
         }
     }
 }
